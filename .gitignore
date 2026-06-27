@@ -5,3 +5,6 @@ node_modules/
 out/
 build/
 *.tsbuildinfo
+
+# GHL agent setup generated output (client-specific, not committed)
+ghl-agent-setup/output/

@@ -1,0 +1,80 @@
+{
+  "_comment": "Fill in all fields before running generate-all.js. See README.md for field descriptions.",
+  "business_name": "Apex HVAC Services",
+  "agent_name": "Alex",
+  "industry": "HVAC",
+  "transfer_number": "+15555550100",
+  "services": [
+    "AC Installation",
+    "AC Repair",
+    "Furnace Installation",
+    "Furnace Repair",
+    "Heat Pump Installation",
+    "Heat Pump Repair",
+    "Duct Cleaning",
+    "HVAC Maintenance & Tune-Up",
+    "Indoor Air Quality Assessment",
+    "Emergency HVAC Service"
+  ],
+  "pricing_policy": "We provide free estimates for all installations and replacements. Diagnostic service calls are $89, which is waived if you proceed with the repair. Financing options are available on installations over $1,000. We do not quote exact repair prices over the phone — a technician must diagnose first.",
+  "service_areas": {
+    "cities": [
+      "Austin",
+      "Round Rock",
+      "Cedar Park",
+      "Pflugerville",
+      "Georgetown",
+      "Leander"
+    ],
+    "zip_codes": [
+      "78701", "78702", "78703", "78704", "78705",
+      "78610", "78613", "78626", "78628", "78660",
+      "78641", "78664", "78681"
+    ]
+  },
+  "operating_hours": {
+    "monday":    { "open": "07:00", "close": "19:00" },
+    "tuesday":   { "open": "07:00", "close": "19:00" },
+    "wednesday": { "open": "07:00", "close": "19:00" },
+    "thursday":  { "open": "07:00", "close": "19:00" },
+    "friday":    { "open": "07:00", "close": "19:00" },
+    "saturday":  { "open": "08:00", "close": "17:00" },
+    "sunday":    { "open": "closed", "close": "closed" },
+    "timezone":  "America/Chicago"
+  },
+  "faqs": [
+    {
+      "question": "Do you offer financing?",
+      "answer": "Yes, we offer 0% financing for 12 months on qualifying installations through our lending partners. Ask your technician for details."
+    },
+    {
+      "question": "How soon can a technician come out?",
+      "answer": "We typically have same-day or next-day availability for repairs. Emergency calls are prioritized and usually dispatched within 2–4 hours."
+    },
+    {
+      "question": "Are your technicians licensed and insured?",
+      "answer": "Yes, all Apex technicians are NATE-certified, state-licensed, and fully insured."
+    },
+    {
+      "question": "What brands do you service?",
+      "answer": "We service all major brands including Carrier, Trane, Lennox, Rheem, Goodman, York, and more."
+    },
+    {
+      "question": "Do you offer maintenance plans?",
+      "answer": "Yes, our Apex Comfort Club plan includes two annual tune-ups, priority scheduling, and 15% off repairs for $19.99/month."
+    },
+    {
+      "question": "What is your warranty?",
+      "answer": "All installations include a 1-year labor warranty. Equipment manufacturer warranties vary by brand and model (typically 5–10 years on parts)."
+    }
+  ],
+  "emergency_policy": "Emergency HVAC service is available 24/7 for existing customers. Emergency dispatch fee is $149 (applied toward the repair). For after-hours emergencies, the AI agent will collect caller information and immediately page the on-call technician.",
+  "technician_email": "dispatch@apexhvac.com",
+  "brand_voice": "Friendly, professional, and reassuring. Speak like a knowledgeable neighbor, not a corporate script. Use plain English, avoid jargon. Be efficient — homeowners calling about HVAC issues are often stressed; acknowledge their concern and move quickly to solutions.",
+  "ghl_location_id": "YOUR_GHL_LOCATION_ID_HERE",
+  "phone_number_country": "US",
+  "calendar_id": "YOUR_GHL_CALENDAR_ID_HERE",
+  "appointment_duration_minutes": 60,
+  "maintenance_plan_name": "Apex Comfort Club",
+  "maintenance_plan_price": "$19.99/month"
+}
